@@ -1,17 +1,167 @@
-            <!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-                <style>
-                    p{
-                        font-family: fantasy;
-                    }
-                </style>
-            </head>
-            <body>
-                
-            </body>
-            </html>                                                                                                           
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .texto-esquerda {
+        text-align: left;
+    }
+    .texto-direita {
+        text-align: right;
+    }
+    .texto-centralizado {
+        text-align: center;
+    }
+    .texto-justificado {
+        text-align: justify;
+    }
+
+
+    .indentacao {
+        text-indent: 30px;
+    }
+
+    .fonte-importada {
+      font-family: "Oswald", sans-serif;
+    }
+
+    .sublinhado {
+      text-decoration: underline;
+    }
+
+    .sombra {
+      text-shadow: 0px 4px 3px red, 0px -5px 3px orange;
+    }
+
+    .alinhamento {
+      text-align: center;
+    }
+
+    .minusculo {
+      text-transform: lowercase;
+    }
+    .maiusculo {
+      text-transform: uppercase;
+    }
+    .capitalize {
+      text-transform: capitalize;
+    }
+
+    .espacamento-letras-maior {
+      letter-spacing: 0.1em;
+    }
+
+    .espacamento-palavras-maior {
+      word-spacing: 0.5em;
+    }
+
+    .espacamento-linhas-medio{
+      line-height: 1.5;
+    }
+    .espacamento-linhas-duplo{
+      line-height: 2;
+    }
+
+    p.normal   { white-space: normal;   }
+    p.nowrap   { white-space: nowrap;   }
+    p.pre      { white-space: pre;      }
+    p.pre-wrap { white-space: pre-wrap; }
+    p.pre-line { white-space: pre-line; }
+
+  </style>
+</head>
+
+<body>
+
+
+  <h1>Formatações em css</h1>
+
+  <p class="sublinhado">Texto sublinhado</p>
+
+  <p class="sombra">Texto com sombra</p>
+
+  <hr> <!-- *************************************************************** -->
+  
+  <h2>Alinhamento</h2>
+  
+  <p class="texto-esquerda"><strong>Texto alinhado a esquerda</strong>. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ipsum minima ut officiis, odit, unde, mollitia voluptatem nulla beatae laudantium voluptate modi asperiores id nemo aliquam quam excepturi et reprehenderit.</p>
+  
+  <p class="texto-direita"><strong>Texto alinhado a direita</strong>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ullam voluptatum facilis, ea inventore delectus, expedita in soluta, aliquam maiores minima veritatis quas quod illum suscipit esse. Esse, repudiandae sit.</p>
+  
+  <p class="texto-centralizado"><strong>Texto alinhado ao centro</strong>. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam obcaecati, quaerat quo velit at mollitia porro deleniti tempora doloremque facere totam, blanditiis repellat? Pariatur possimus dignissimos quas dolorem labore libero.</p>
+  
+  <p class="texto-justificado">Texto justificado. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam reprehenderit obcaecati deleniti cumque, ipsam quod dolores blanditiis et veniam sed ipsum eos dolore debitis eum sunt ab ratione accusamus sequi.</p>
+  
+  <hr> <!-- *************************************************************** -->
+  
+  <h2>Indentação</h2>
+
+  <p class="indentacao"><strong>Parágrafo com indentação</strong>. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, fuga facere necessitatibus corrupti sint quae perspiciatis error hic provident eos totam distinctio praesentium labore fugiat unde qui modi maiores quidem.</p>
+
+  <hr> <!-- *************************************************************** -->
+
+  <h2>Maiúsculo e Minúsculo</h2>
+  
+  <p class="minusculo">TEXTO ESCRITO EM LETRAS MAIÚSCULAS NO HTML</p>
+  <p class="maiusculo">texto escrito em letras minúsculas no html</p>
+  <p class="capitalize">texto escrito em letras minúsculas no html</p>
+  
+  <hr> <!-- *************************************************************** -->
+  
+  <h2>Espaçamento</h2>
+  
+  <p class="espacamento-letras-maior"><strong>Texto com espaçamento maior entre as letras.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus distinctio obcaecati quam error, ab corporis enim expedita velit qui accusantium molestias rem ratione ullam, animi pariatur, sint quia praesentium id.</p>
+  <p class="espacamento-palavras-maior"><strong>Texto com espaçamento entre as palavras.</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore esse deserunt quis laboriosam dicta autem doloremque alias animi impedit nesciunt fugit iusto, perferendis reiciendis maxime, voluptatum dolorum, facere veniam. Natus.</p>
+  
+  <p class="espacamento-linhas-medio"><strong>Texto com espaçamento entre as linhas.</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur beatae numquam cumque dolorem sapiente laudantium quidem nemo eius itaque illum, corporis optio quam labore dolores ab? Unde sequi at ratione.</p>
+  <p class="espacamento-linhas-duplo"><strong>Texto com espaçamento entre as linhas.</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur beatae numquam cumque dolorem sapiente laudantium quidem nemo eius itaque illum, corporis optio quam labore dolores ab? Unde sequi at ratione.</p>
+
+  <h1>Espaço em branco</h1>
+
+  <p class="normal">Esta é uma linha.
+    Aqui temos uma nova linha e um monte               de                                  espaços                                 em                                branco 
+    mas mesmo assin o HTML eliminará todos os espaços extras       e      também      os     caracteres     de     nova     linha
+    no resultado final .
+</p>
+
+<p class="nowrap">Esta é uma linha.
+    Aqui temos uma nova linha e um monte               de                                  espaços                                 em                                branco 
+    mas mesmo assin o HTML eliminará todos os espaços extras       e      também      os     caracteres     de     nova     linha
+    no resultado final .
+</p>
+
+<p class="pre">Esta é uma linha.
+    Aqui temos uma nova linha e um monte               de                                  espaços                                 em                                branco 
+    mas mesmo assin o HTML eliminará todos os espaços extras       e      também      os     caracteres     de     nova     linha
+    no resultado final .
+</p>
+
+<p class="pre-wrap">Esta é uma linha.
+    Aqui temos uma nova linha e um monte               de                                  espaços                                 em                                branco 
+    mas mesmo assin o HTML eliminará todos os espaços extras       e      também      os     caracteres     de     nova     linha
+    no resultado final .
+</p>
+
+<p class="pre-line">Esta é uma linha.
+    Aqui temos uma nova linha e um monte               de                                  espaços                                 em                                branco 
+    mas mesmo assin o HTML eliminará todos os espaços extras       e      também      os     caracteres     de     nova     linha
+    no resultado final .
+</p>
+
+<h1>Importação de fonte</h1>
+
+<p class="fonte-importada">Texto com a fonte importada do Google Fonts</p>
+
+</body>
+
+</html>
