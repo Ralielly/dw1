@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo:ELSH@0..100&family=Poetsen+One&display=swap');
+    :root {
+        --cor-fundo: rgb(123, 154, 199);
+        --cor-principal: rgb(255, 255, 255);
+        --font: 25px "Bebas Neue";
+        --font-destaque: 35px "Poetsen One";
+        --altura-cabecalho: 100px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font: var(--font)
+    }
+    .container {
+        background-color: var(--cor-fundo);
+        height: 100vh;
+    }
+
+    .cabecalho{
+        border: 1px solid var(--cor-principal);
+        color: var(--cor-principal);
+        height: var(--altura-cabecalho);
+        overflow: scroll;
+    }
+    .principal {
+        border: 1px solid var(--cor-principal);
+        color: var(--cor-principal);
+        padding: 10px;
+        height: calc(100vh - var(--altura-cabecalho));
+
+    }
+
+    .principal h1 {
+        padding: 10px;
+        font: var(--font-destaque)
+    }
+    .principal ul {
+        padding: 10px 
+    }
+</style>
+
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <p>Rally</p>
+            <p>Linda</p>
+            <p>Incrivel</p>
+            <p>Maravilhosa</p>
+            <p>Esta </p>
+            <p>Com fome</p>
+        
+
+        </div>
+        
+<div class="principal">
+   <h1>Lista de Tarefas</h1>
+    <ul>
+        <li>Tarefa 1</li>
+        <li>Tarefa 2</li>
+        <li>Tarefa 3</li>
+    </ul>
+    </div>
+    
+</body>
+</html>
