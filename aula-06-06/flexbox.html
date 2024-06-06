@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
+
+           display: flex;
+          
+           justify-content: center;
+           align-items: center;
+
+           flex-wrap: wrap;
+        }
+        .box{
+            width: 6.25rem;
+            height: 6.25rem;
+            background-color: rgb(0, 89, 255);
+            border: 2px solid rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+           }
+        .posicaofixa{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+          
+
+        }
+
+                                                                                                                                                                                                                        
+    </style>
+</head>
+<body>
+
+      <div class="container"> 
+         <div class="box">R</div>
+         <div class="box">A</div>
+         <div class="box">L</div>
+         <div class="box">L</div>
+         <div class="box">Y</div>
+         <div class="box">Z</div>
+         <div class="box">I</div>
+         <div class="box">N</div>
+         <div class="box">H</div>
+         <div class="box">A</div>
+        
+</body>
+</html>
