@@ -15,7 +15,7 @@
             box-sizing: border-box;
         }
 
-        .container {
+        #titulo{
             background-image: url(https://ntvb.tmsimg.com/assets/p9257455_b_h8_ac.jpg?w=1280&h=720);
             background-size: cover;
             background-position: center;
@@ -25,6 +25,12 @@
 
             
         }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
 
         .principal {
             background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
@@ -42,17 +48,18 @@
         }
 
         .menu li {
-            list-style: none;
+            list-style: none; 
         }
 
         .menu a {
             display: inline-block;
             border: 1px solid rgb(48, 32, 32);
-            padding: 25px 15px;
+            padding: 35px 100px;
             height: 90px;
             text-decoration: none;
             color: rgb(255, 255, 255);
             transition: 0.3s;
+            background-size: cover;
         }
 
         .menu a:hover {
@@ -61,13 +68,42 @@
         }
 
         #visual {
-            background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
+            background-image: url(https://m.media-amazon.com/images/S/pv-target-images/bd6fefe7e9ccfcc7db517708a4f9aa4272b53facc2645bda7add35815585f52e.jpg);
+            background-size: cover;
             height: 100vh;
             width: 100vw;
+            font-size: 20px;
+            color: white;
+            display: flex;
+            justify-content: flex-start;
+           
+           
             
         }
 
+        #visual p{
+            height: 100vh;
+            width: 25vw;
+            align-items: center;
+            font-family: "Bitter", serif;
+            color: rgb(253, 253, 253);
+            text-align: center;
+            margin: 2px;
+            font-size: 20px;
+
+        }
+
         #persona {
+            background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
+            height: 100vh;
+            width: 100vh;
+            display: flex;
+            justify-content: space-around;
+
+           
+            
+           
+           
             
             
             
@@ -87,6 +123,13 @@
             font-size: 70px;
 
         }
+        .item1{
+            background-color: blue;
+            width: 30vw;
+            height: 85vh;
+            border: 1px solid black;
+        }
+
         
     </style>
 
@@ -98,20 +141,30 @@
 
         <div class="menu" id="menu">
             <ul>
+                <li><a href="#titulo"></a></li>
                 <li><a href="#visual">Introdução</a></li>
                 <li><a href="#persona">Personagens</a></li>
                 <li><a href="#temp">Temporadas</a></li>
             </ul>
         </div>
-        <h1 class="titulo"></h1>
-       
-    </div>
+        <div id="titulo"><h1 class="titulo"></h1> </div>     
+        
+        <div id="visual"><p>A trama se desenvolve no acompanhamento do dia-a-dia da vida dos heróis que arriscam suas vidas em sua nobre profissão. Para os bombeiros e paramédicos do 51º Corpo de Bombeiros de Chicago, não há nenhuma outra tarefa tão estressante e perigosa, ainda que recompensante e emocionante, quanto a sua própria. Essa corajosa equipe faz parte de um seleto grupo que enfrentam o perigo e vão - literalmente - de encontro ao fogo.
 
-    <div id="visual"></div>
-    <div id="persona"></div>
-    <div class="principal"></div>
-    <div id="temp">
-        <a href="#menu">volta ao menu</a>
+                E a aceitação da responsabilidade de ser um bombeiro traz consigo a pressão da necessidade de realizar um trabalho árduo e meticuloso, não podendo conter erros, em que nas vezes que ocorrem, poder punir até mesmo seus próprios parceiros. Não por menos, a trama inicial aborda justamente esse aspecto, onde Andrew Darden, experiente bombeiro do Carro-Pipa 51, morre no episódio piloto, devido a um erro coletivo na falta de ventilação no teto de uma casa incendiada, dividindo o batalhão na busca de culpados e na redenção pela culpa.
+                
+                .</p></div>
+
+            <div id="persona">
+                 <div class="box item1"></div>
+                 <div class="box item2"></div>
+                 <div class="box item3"></div>
+            </div>
+
+            <div class="principal"></div>
+            <div id="temp">
+                <a href="#menu">volta ao menu</a>
+            </div>
     </div>
 
 
