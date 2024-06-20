@@ -55,7 +55,7 @@
         .menu a {
             display: inline-block;
             border: 1px solid rgb(150, 21, 21);
-            padding: 35px 140px;
+            padding: 35px 115px;
             height: 90px;
             text-decoration: none;
             color: rgb(255, 255, 255);
@@ -96,58 +96,96 @@
        
         #persona {
             background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
-            height: 15vh;
-            width: 100vh;
+            height: 100vh;
+            width: 100vw;
             display: flex;
             justify-content: space-around;
-
-           
-            
         }
 
         #temp {
             background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
             height: 100vh;
             width: 100vw;
+            text-align: center;
+            
+        }
+
+        #voltar1{
+            
+            background-color: rgb(255, 0, 0);
+            text-align: center;
+            
+        }
+
+        #voltar2{
+            color: rgb(0, 0, 0);
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+           
+        }
+
+        #temp p{
+            height: 150vh;
+            width: 27vw;
+            align-items: center;
+            font-family: "Bitter", serif;
+            color: rgb(253, 253, 253);
+            text-align: center;
+            margin: 2px;
+            font-size: 20px;
         }
 
        
         .item1{
             background-color: rgb(189, 37, 37);
-            width: 45vw;
-            height: 80vh;
+            width: 30vw;
+            height: 100vh;
             border: 3px solid black;
-            background-image: url(https://d.newsweek.com/en/full/1543456/kelly-severide-leaving-chicago-fire.jpg?w=1600&h=1600&q=88&f=6ae006fd0d72993524b9cf89d06fb37c);
+            background-image: url(https://www.usmagazine.com/wp-content/uploads/2022/05/Taylor-Kinney-Says-Chicago-Fire-Season-10-Wedding-Finale-Is-a-Family-Affair.jpg?quality=78&strip=all);
+
             background-size: cover;
             background-position: center;
         }
 
         .item2{
             background-color: rgb(189, 37, 37);
-            width: 45vw;
-            height: 80vh;
-            border: 3px solid black;
-            background-image: url(https://i.pinimg.com/originals/7f/e4/ca/7fe4ca515c8bc8c9e211df84754ecf3f.png);
-            background-position: center;
+            width: 30vw;
+            height: 100vh;
+            border: 2px solid black;
+            background-image: url(https://www.axn.es/wp-content/uploads/2023/01/estela-jpg.webp);
             background-size: cover;
+            background-position: center;
         }
+        
+        
         .item3{
             background-color: rgb(189, 37, 37);
-            width: 20vw;
-            height: 80vh;
-            border: 3px solid black;
+            width: 30vw;
+            height: 100vh;
+            border: 2px solid black;
+            background-image: url(https://img.nbc.com/files/images/2022/9/09/ChicagoFire-EamonnWalker-bio-1455x1455.jpg);
+            background-size: cover;
+            background-position: center;
         }
+        
         .item4{
             background-color: rgb(189, 37, 37);
-            width: 20vw;
-            height: 80vh;
-            border: 3px solid black;
+            width: 30vw;
+            height: 100vh;
+            border: 2px solid black;
+            background-image: url(https://www.axn.es/wp-content/uploads/2023/01/chicago-fire-personajes-jpg.webp);
+            background-size: cover;
+            background-position: center;
         }
+        
         .item5{
             background-color: rgb(189, 37, 37);
-            width: 20vw;
-            height: 80vh;
-            border: 3px solid black;
+            width: 30vw;
+            height: 100vh;
+            border: 2px solid black;
+            background-image: url(https://www.axn.es/wp-content/uploads/2023/01/sylvie-jpg.webp);
+            background-size: cover;
+            background-position: center;
         }
 
         
@@ -167,13 +205,23 @@
                 <li><a href="#temp">Temporadas</a></li>
             </ul>
         </div>
-        <div id="titulo"><h1 class="titulo"></h1> </div>     
+        <div id="titulo"><h1 class="titulo"></h1> </div>  
+        <div id="voltar2">
+            <a href="#menu">menu</a>
+        </div> 
+
         
         <div id="visual"><p>A trama se desenvolve no acompanhamento do dia-a-dia da vida dos heróis que arriscam suas vidas em sua nobre profissão. Para os bombeiros e paramédicos do 51º Corpo de Bombeiros de Chicago, não há nenhuma outra tarefa tão estressante e perigosa, ainda que recompensante e emocionante, quanto a sua própria. Essa corajosa equipe faz parte de um seleto grupo que enfrentam o perigo e vão - literalmente - de encontro ao fogo.
 
                 E a aceitação da responsabilidade de ser um bombeiro traz consigo a pressão da necessidade de realizar um trabalho árduo e meticuloso, não podendo conter erros, em que nas vezes que ocorrem, poder punir até mesmo seus próprios parceiros. Não por menos, a trama inicial aborda justamente esse aspecto, onde Andrew Darden, experiente bombeiro do Carro-Pipa 51, morre no episódio piloto, devido a um erro coletivo na falta de ventilação no teto de uma casa incendiada, dividindo o batalhão na busca de culpados e na redenção pela culpa.
                 
-                .</p></div>
+                .</p>
+            </div>
+            <div id="voltar2">
+            <a href="#menu">menu</a>
+            </div>
+
+
 
 
             <div id="persona">
@@ -183,11 +231,23 @@
                  <div class="box item4"></div>
                  <div class="box item5"></div>
             </div>
+            <div id="voltar2">
+                <a href="#menu">menu</a>
+            </div>
+              
 
-            <div class="principal"></div>
-            <div id="temp">
+           
+            <div href="temp"><p>
+                Após a morte do colega de brigada Andrew Darden, os ânimos ficam agitados no Corpo de Bombeiros de Chicago. A rivalidade entre os tenentes Matthew Casey (Jesse Spencer) e Kelly Severide (Taylor Kinney) se acirra, à medida que um culpa o outro pelo incidente que tirou a vida de Andrew. Enquanto isso, o cadete Peter Mills (Charlie Barnett) se junta a equipe e as paramédicas Gabriela Dawson (Monica Raymund) e Leslie Shay (Laura German) ganham o controle da ambulância 61.</p> </div>
+
+                <div id="voltar1">
                 <a href="#menu">volta ao menu</a>
             </div>
+
+        
+
+            
+
     </div>
 
 
